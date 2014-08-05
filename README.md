@@ -11,7 +11,10 @@ A Swift app to put your computer to sleep directly from Spotlight. Just build th
 [Patrick Chamelo](https://github.com/nscoding)<br />
 [@nscoding](https://twitter.com/nscoding)
 
-If you are interested on making an icon, please send me an email at <patrick@nscoding.co.uk> 
+
+###Icon
+
+[Kylan McBride](https://github.com/kmcbride)
 
 ###License
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD30616C1991360F00C1DEFA /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = CD30616B1991360F00C1DEFA /* Icon.icns */; };
 		CD77A7421990FF3B00758F4A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD77A7411990FF3B00758F4A /* main.swift */; };
 		CD77A7441990FF3B00758F4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD77A7431990FF3B00758F4A /* AppDelegate.swift */; };
 		CD77A7461990FF3B00758F4A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD77A7451990FF3B00758F4A /* Images.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD30616B1991360F00C1DEFA /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
 		CD77A73C1990FF3B00758F4A /* Sleep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sleep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD77A7401990FF3B00758F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD77A7411990FF3B00758F4A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -52,6 +54,7 @@
 		CD77A73E1990FF3B00758F4A /* Sleep */ = {
 			isa = PBXGroup;
 			children = (
+				CD30616B1991360F00C1DEFA /* Icon.icns */,
 				CD77A7431990FF3B00758F4A /* AppDelegate.swift */,
 				CD77A7451990FF3B00758F4A /* Images.xcassets */,
 				CD77A7471990FF3B00758F4A /* MainMenu.xib */,
@@ -126,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD30616C1991360F00C1DEFA /* Icon.icns in Resources */,
 				CD77A7461990FF3B00758F4A /* Images.xcassets in Resources */,
 				CD77A7491990FF3B00758F4A /* MainMenu.xib in Resources */,
 			);
