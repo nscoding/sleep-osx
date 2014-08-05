@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD77A7421990FF3B00758F4A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD77A7411990FF3B00758F4A /* main.swift */; };
+		CD77A7441990FF3B00758F4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD77A7431990FF3B00758F4A /* AppDelegate.swift */; };
+		CD77A7461990FF3B00758F4A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD77A7451990FF3B00758F4A /* Images.xcassets */; };
+		CD77A7491990FF3B00758F4A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD77A7471990FF3B00758F4A /* MainMenu.xib */; };
+		CD77A7551990FF3B00758F4A /* SleepTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD77A7541990FF3B00758F4A /* SleepTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD77A74F1990FF3B00758F4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD77A7341990FF3B00758F4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD77A73B1990FF3B00758F4A;
+			remoteInfo = Sleep;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD77A73C1990FF3B00758F4A /* Sleep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sleep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD77A7401990FF3B00758F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD77A7411990FF3B00758F4A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CD77A7431990FF3B00758F4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD77A7451990FF3B00758F4A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD77A7481990FF3B00758F4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CD77A74E1990FF3B00758F4A /* SleepTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD77A7531990FF3B00758F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD77A7541990FF3B00758F4A /* SleepTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD77A7391990FF3B00758F4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD77A74B1990FF3B00758F4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD77A7331990FF3B00758F4A = {
+			isa = PBXGroup;
+			children = (
+				CD77A73E1990FF3B00758F4A /* Sleep */,
+				CD77A7511990FF3B00758F4A /* SleepTests */,
+				CD77A73D1990FF3B00758F4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD77A73D1990FF3B00758F4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD77A73C1990FF3B00758F4A /* Sleep.app */,
+				CD77A74E1990FF3B00758F4A /* SleepTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD77A73E1990FF3B00758F4A /* Sleep */ = {
+			isa = PBXGroup;
+			children = (
+				CD77A7431990FF3B00758F4A /* AppDelegate.swift */,
+				CD77A7451990FF3B00758F4A /* Images.xcassets */,
+				CD77A7471990FF3B00758F4A /* MainMenu.xib */,
+				CD77A73F1990FF3B00758F4A /* Supporting Files */,
+			);
+			path = Sleep;
+			sourceTree = "<group>";
+		};
+		CD77A73F1990FF3B00758F4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD77A7401990FF3B00758F4A /* Info.plist */,
+				CD77A7411990FF3B00758F4A /* main.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD77A7511990FF3B00758F4A /* SleepTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD77A7541990FF3B00758F4A /* SleepTests.swift */,
+				CD77A7521990FF3B00758F4A /* Supporting Files */,
+			);
+			path = SleepTests;
+			sourceTree = "<group>";
+		};
+		CD77A7521990FF3B00758F4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD77A7531990FF3B00758F4A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD77A73B1990FF3B00758F4A /* Sleep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD77A7581990FF3B00758F4A /* Build configuration list for PBXNativeTarget "Sleep" */;
+			buildPhases = (
+				CD77A7381990FF3B00758F4A /* Sources */,
+				CD77A7391990FF3B00758F4A /* Frameworks */,
+				CD77A73A1990FF3B00758F4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sleep;
+			productName = Sleep;
+			productReference = CD77A73C1990FF3B00758F4A /* Sleep.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD77A74D1990FF3B00758F4A /* SleepTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD77A75B1990FF3B00758F4A /* Build configuration list for PBXNativeTarget "SleepTests" */;
+			buildPhases = (
+				CD77A74A1990FF3B00758F4A /* Sources */,
+				CD77A74B1990FF3B00758F4A /* Frameworks */,
+				CD77A74C1990FF3B00758F4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD77A7501990FF3B00758F4A /* PBXTargetDependency */,
+			);
+			name = SleepTests;
+			productName = SleepTests;
+			productReference = CD77A74E1990FF3B00758F4A /* SleepTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD77A7341990FF3B00758F4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Patrick Chamelo";
+				TargetAttributes = {
+					CD77A73B1990FF3B00758F4A = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					CD77A74D1990FF3B00758F4A = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = CD77A73B1990FF3B00758F4A;
+					};
+				};
+			};
+			buildConfigurationList = CD77A7371990FF3B00758F4A /* Build configuration list for PBXProject "Sleep" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD77A7331990FF3B00758F4A;
+			productRefGroup = CD77A73D1990FF3B00758F4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD77A73B1990FF3B00758F4A /* Sleep */,
+				CD77A74D1990FF3B00758F4A /* SleepTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD77A73A1990FF3B00758F4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD77A7461990FF3B00758F4A /* Images.xcassets in Resources */,
+				CD77A7491990FF3B00758F4A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD77A74C1990FF3B00758F4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD77A7381990FF3B00758F4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD77A7441990FF3B00758F4A /* AppDelegate.swift in Sources */,
+				CD77A7421990FF3B00758F4A /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD77A74A1990FF3B00758F4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD77A7551990FF3B00758F4A /* SleepTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD77A7501990FF3B00758F4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD77A73B1990FF3B00758F4A /* Sleep */;
+			targetProxy = CD77A74F1990FF3B00758F4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD77A7471990FF3B00758F4A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD77A7481990FF3B00758F4A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD77A7561990FF3B00758F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD77A7571990FF3B00758F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CD77A7591990FF3B00758F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Sleep/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD77A75A1990FF3B00758F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Sleep/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD77A75C1990FF3B00758F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sleep.app/Contents/MacOS/Sleep";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SleepTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		CD77A75D1990FF3B00758F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sleep.app/Contents/MacOS/Sleep";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SleepTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD77A7371990FF3B00758F4A /* Build configuration list for PBXProject "Sleep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD77A7561990FF3B00758F4A /* Debug */,
+				CD77A7571990FF3B00758F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD77A7581990FF3B00758F4A /* Build configuration list for PBXNativeTarget "Sleep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD77A7591990FF3B00758F4A /* Debug */,
+				CD77A75A1990FF3B00758F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD77A75B1990FF3B00758F4A /* Build configuration list for PBXNativeTarget "SleepTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD77A75C1990FF3B00758F4A /* Debug */,
+				CD77A75D1990FF3B00758F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD77A7341990FF3B00758F4A /* Project object */;
+}
