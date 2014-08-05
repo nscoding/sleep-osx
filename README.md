@@ -1,7 +1,7 @@
 Sleep
 =========
 
-A Swift app to sleep your computer from Spotlight
+A Swift app to put your computer to sleep directly from Spotlight. Just build the app and install it in your applications folder.
 
 [<img src="Sleep.jpg">](http://nscoding.co.uk)
 
