@@ -15,6 +15,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		CD3A9A9B1991049F00FD5FA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD77A7341990FF3B00758F4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD77A73B1990FF3B00758F4A;
+			remoteInfo = Sleep;
+		};
 		CD77A74F1990FF3B00758F4A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CD77A7341990FF3B00758F4A /* Project object */;
@@ -141,6 +148,7 @@
 			);
 			dependencies = (
 				CD77A7501990FF3B00758F4A /* PBXTargetDependency */,
+				CD3A9A9C1991049F00FD5FA5 /* PBXTargetDependency */,
 			);
 			name = SleepTests;
 			productName = SleepTests;
@@ -224,6 +232,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		CD3A9A9C1991049F00FD5FA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD77A73B1990FF3B00758F4A /* Sleep */;
+			targetProxy = CD3A9A9B1991049F00FD5FA5 /* PBXContainerItemProxy */;
+		};
 		CD77A7501990FF3B00758F4A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CD77A73B1990FF3B00758F4A /* Sleep */;
@@ -397,6 +410,7 @@
 				CD77A75A1990FF3B00758F4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD77A75B1990FF3B00758F4A /* Build configuration list for PBXNativeTarget "SleepTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +419,7 @@
 				CD77A75D1990FF3B00758F4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
