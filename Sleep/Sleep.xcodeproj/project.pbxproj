@@ -243,14 +243,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Mac Developer: Patrick CHAMELO (4S7SPYVR8G)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer: Patrick CHAMELO (4S7SPYVR8G)";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_OPTIMIZATION_LEVEL = s;
 				INFOPLIST_FILE = Sleep/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "EB607F53-CF90-4150-AD59-6C1468B8A13E";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -258,13 +259,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Patrick CHAMELO (HPSF3D2F4U)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "3rd Party Mac Developer Application: Patrick CHAMELO (HPSF3D2F4U)";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Sleep/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "8BA0EE8B-3417-4128-8228-7815AEF36BE3";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
