@@ -11,7 +11,9 @@
 		CD77A7421990FF3B00758F4A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD77A7411990FF3B00758F4A /* main.swift */; };
 		CD77A7441990FF3B00758F4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD77A7431990FF3B00758F4A /* AppDelegate.swift */; };
 		CD77A7461990FF3B00758F4A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD77A7451990FF3B00758F4A /* Images.xcassets */; };
-		CD77A7491990FF3B00758F4A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD77A7471990FF3B00758F4A /* MainMenu.xib */; };
+		CDFCE60C19DC42A300760EFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFCE60B19DC42A300760EFD /* Foundation.framework */; };
+		CDFCE60E19DC42B100760EFD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFCE60D19DC42B100760EFD /* Cocoa.framework */; };
+		CDFCE61219DC440D00760EFD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD77A7471990FF3B00758F4A /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,9 @@
 		CD77A7431990FF3B00758F4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD77A7451990FF3B00758F4A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CD77A7481990FF3B00758F4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CD91990A19DC453300945690 /* Sleep.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Sleep.entitlements; sourceTree = "<group>"; };
+		CDFCE60B19DC42A300760EFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CDFCE60D19DC42B100760EFD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +34,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDFCE60E19DC42B100760EFD /* Cocoa.framework in Frameworks */,
+				CDFCE60C19DC42A300760EFD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,9 +61,11 @@
 		CD77A73E1990FF3B00758F4A /* Sleep */ = {
 			isa = PBXGroup;
 			children = (
-				CD30616B1991360F00C1DEFA /* Icon.icns */,
+				CD91990A19DC453300945690 /* Sleep.entitlements */,
 				CD77A7431990FF3B00758F4A /* AppDelegate.swift */,
+				CD30616B1991360F00C1DEFA /* Icon.icns */,
 				CD77A7451990FF3B00758F4A /* Images.xcassets */,
+				CDFCE61119DC42D100760EFD /* Libraries */,
 				CD77A7471990FF3B00758F4A /* MainMenu.xib */,
 				CD77A73F1990FF3B00758F4A /* Supporting Files */,
 			);
@@ -70,6 +79,16 @@
 				CD77A7411990FF3B00758F4A /* main.swift */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDFCE61119DC42D100760EFD /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				CDFCE60D19DC42B100760EFD /* Cocoa.framework */,
+				CDFCE60B19DC42A300760EFD /* Foundation.framework */,
+			);
+			name = Libraries;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +123,11 @@
 					CD77A73B1990FF3B00758F4A = {
 						CreatedOnToolsVersion = 6.0;
 						DevelopmentTeam = HPSF3D2F4U;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -132,7 +156,7 @@
 			files = (
 				CD30616C1991360F00C1DEFA /* Icon.icns in Resources */,
 				CD77A7461990FF3B00758F4A /* Images.xcassets in Resources */,
-				CD77A7491990FF3B00758F4A /* MainMenu.xib in Resources */,
+				CDFCE61219DC440D00760EFD /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,13 +267,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Sleep/Sleep.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer: Patrick CHAMELO (4S7SPYVR8G)";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer: Patrick CHAMELO (4S7SPYVR8G)";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_OPTIMIZATION_LEVEL = s;
 				INFOPLIST_FILE = Sleep/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -259,12 +285,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Sleep/Sleep.entitlements;
 				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Patrick CHAMELO (HPSF3D2F4U)";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "3rd Party Mac Developer Application: Patrick CHAMELO (HPSF3D2F4U)";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Sleep/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};

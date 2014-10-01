@@ -29,7 +29,7 @@ class AppDelegate: NSObject, NSApplicationDelegate
 {
     func applicationDidFinishLaunching(aNotification: NSNotification?)
     {
-        var scriptObject : NSAppleScript = NSAppleScript(source: "tell application \"System Events\" to sleep")
+        var scriptObject : NSAppleScript = NSAppleScript(source: "tell application \"System Events\" to sleep")!
         var errorDict: NSDictionary? = nil
         scriptObject.executeAndReturnError(&errorDict)
     
