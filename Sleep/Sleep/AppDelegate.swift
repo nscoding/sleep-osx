@@ -27,7 +27,7 @@ import Cocoa
 
 class AppDelegate: NSObject, NSApplicationDelegate
 {
-    func applicationDidFinishLaunching(aNotification: NSNotification?)
+    func applicationDidFinishLaunching(notification: NSNotification)
     {
         var task = NSTask()
         task.launchPath = "/usr/bin/pmset"

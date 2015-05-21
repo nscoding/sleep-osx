@@ -17,7 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		137974F61A10611A00B8B849 /* Sleep.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Sleep.entitlements; sourceTree = "<group>"; };
 		CD30616B1991360F00C1DEFA /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
 		CD77A73C1990FF3B00758F4A /* Sleep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sleep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD77A7401990FF3B00758F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,7 +60,6 @@
 		CD77A73E1990FF3B00758F4A /* Sleep */ = {
 			isa = PBXGroup;
 			children = (
-				137974F61A10611A00B8B849 /* Sleep.entitlements */,
 				CD77A7431990FF3B00758F4A /* AppDelegate.swift */,
 				CD30616B1991360F00C1DEFA /* Icon.icns */,
 				CD77A7451990FF3B00758F4A /* Images.xcassets */,
@@ -220,7 +218,6 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer: Patrick CHAMELO (4S7SPYVR8G)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -262,7 +259,6 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Patrick CHAMELO (HPSF3D2F4U)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -284,9 +280,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Sleep/Sleep.entitlements;
-				CODE_SIGN_IDENTITY = "Mac Developer: Patrick CHAMELO (4S7SPYVR8G)";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer: Patrick CHAMELO (4S7SPYVR8G)";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_OPTIMIZATION_LEVEL = s;
 				INFOPLIST_FILE = Sleep/Info.plist;
@@ -302,9 +295,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Sleep/Sleep.entitlements;
-				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Patrick CHAMELO (HPSF3D2F4U)";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "3rd Party Mac Developer Application: Patrick CHAMELO (HPSF3D2F4U)";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Sleep/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
