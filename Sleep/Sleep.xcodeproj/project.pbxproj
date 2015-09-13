@@ -16,7 +16,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		137974F61A10611A00B8B849 /* Sleep.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Sleep.entitlements; sourceTree = "<group>"; };
 		CD30616B1991360F00C1DEFA /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
 		CD77A73C1990FF3B00758F4A /* Sleep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sleep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD77A7401990FF3B00758F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,7 +58,6 @@
 		CD77A73E1990FF3B00758F4A /* Sleep */ = {
 			isa = PBXGroup;
 			children = (
-				137974F61A10611A00B8B849 /* Sleep.entitlements */,
 				CD77A7431990FF3B00758F4A /* AppDelegate.swift */,
 				CD30616B1991360F00C1DEFA /* Icon.icns */,
 				CD77A7451990FF3B00758F4A /* Images.xcassets */,
