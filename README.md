@@ -5,20 +5,20 @@ A Swift app to put your computer to sleep directly from Spotlight. Just build th
 
 [<img src="Sleep.jpg">](http://nscoding.co.uk)
 
-###Download
+### Download
 
 You can download a signed version from [here](http://nscoding.co.uk/downloads/SleepOSX100.zip)
 
-###Contact
+### Contact
 
 [Patrick Chamelo](https://github.com/nscoding)<br/>
 [@nscoding](https://twitter.com/nscoding)
 
-###Icon
+### Icon
 
 [Kylan McBride](https://github.com/kmcbride)
 
-###License
+### License
 
 Sleep is available under the MIT license. See the LICENSE file for details.
 
