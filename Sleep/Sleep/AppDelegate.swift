@@ -26,11 +26,10 @@
 import Cocoa
 
 @NSApplicationMain
-class AppDelegate: NSObject, NSApplicationDelegate
-{
-    func applicationDidFinishLaunching(notification: NSNotification)
-    {
-        let task = NSTask()
+class AppDelegate: NSObject, NSApplicationDelegate {
+    
+    func applicationDidFinishLaunching(_ aNotification: Notification) {
+        let task = Process()
         task.launchPath = "/usr/bin/pmset"
         task.arguments = ["sleepnow"]
         task.launch()
